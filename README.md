@@ -9,15 +9,15 @@ SoundWave is a responsive web-based music player that allows users to browse son
 
 ## 🚀 Features
 
-▶️ Play and Pause Songs
-⏭️ Next and Previous Controls
-📊 Real-Time Progress Bar
-🔊 Volume Control
-🔍 Song Search Functionality
-🎵 Dynamic Song Loading
-✨ Active Song Highlighting
-⏱️ Current Time and Total Duration Display
-📱 Responsive Design
+-▶️ Play and Pause Songs
+-⏭️ Next and Previous Controls
+-📊 Real-Time Progress Bar
+-🔊 Volume Control
+-🔍 Song Search Functionality
+-🎵 Dynamic Song Loading
+-✨ Active Song Highlighting
+-⏱️ Current Time and Total Duration Display
+-📱 Responsive Design
 
 ## 🛠️ Technologies Used
 
@@ -47,18 +47,18 @@ soundwave/
 
 Through this project, I learned:
 
-DOM Manipulation
-Event Handling
-JavaScript Arrays and Objects
-Audio API Integration
-Responsive Web Design
-Dynamic UI Updates
+-DOM Manipulation
+-Event Handling
+-JavaScript Arrays and Objects
+-Audio API Integration
+-Responsive Web Design
+-Dynamic UI Updates
 
 ## 🔮 Future Enhancements
 
-React Version
-User Authentication
-Playlist Creation
-Favorites System
-Recently Played Songs
-Backend Integration
+-React Version
+-User Authentication
+-Playlist Creation
+-Favorites System
+-Recently Played Songs
+-Backend Integration
