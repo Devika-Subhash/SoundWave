@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">SoundWave</h2>
+      <!-- sidebar menu -->
+      <ul class="menu">
+        <li class="list-items">Home</li>
+        <li class="list-items">Search</li>
+        <li class="list-items">Library</li>
+        <li class="list-items">Playlists</li>
+      </ul>
+    </aside>
+
+
+    <!-- main area -->
+    <section class="main-content">
+      <!-- greeting -->
+      <div class="greeting">
+        <h1>Good Evening</h1>
+        <p>Recently Played</p>
+      </div>
+      <div class="search-container">
+
+        <input id="search-input" type="text" placeholder="Search songs...">
+
+      </div>
+      <!-- song cards -->
+      <div class="song-container">
+
+    <div class="song-card" data-index="0">
+        <img class="song-image" src="./assets/images/song1.png">
+        <h3>Blinding Lights</h3>
+        <p>The Weeknd</p>
+    </div>
+
+    <div class="song-card" data-index="1">
+        <img class="song-image" src="./assets/images/song2.png">
+        <h3>Perfect</h3>
+        <p>Ed Sheeran</p>
+    </div>
+
+    <div class="song-card" data-index="2">
+        <img class="song-image" src="./assets/images/song3.png">
+        <h3>Believer</h3>
+        <p>Imagine Dragons</p>
+    </div>
+
+    <div class="song-card" data-index="3">
+        <img class="song-image" src="./assets/images/song4.png">
+        <h3>Shape of You</h3>
+        <p>Ed Sheeran</p>
+    </div>
+
+    <div class="song-card" data-index="4">
+        <img class="song-image" src="./assets/images/song5.png">
+        <h3>Heat Waves</h3>
+        <p>Glass Animals</p>
+    </div>
+
+    <div class="song-card" data-index="5">
+        <img class="song-image" src="./assets/images/song6.png">
+        <h3>Counting Stars</h3>
+        <p>OneRepublic</p>
+    </div>
+
+    <div class="song-card" data-index="6">
+        <img class="song-image" src="./assets/images/song7.png">
+        <h3>Faded</h3>
+        <p>Alan Walker</p>
+    </div>
+    <div class="song-card" data-index="7">
+        <img class="song-image" src="./assets/images/song8.png">
+        <h3>Someone You Loved</h3>
+        <p>Lewis Capaldi</p>
+    </div>
+    <div class="song-card" data-index="7">
+        <img class="song-image" src="./assets/images/song9.png">
+        <h3>Lovely</h3>
+        <p>Billie Eilish & Khalid</p>
+    </div>
+
+</div>
+    </section>
+  </div>
+
+
+  <!-- music player -->
+  <footer class="music-player">
+    <!-- song details -->
+    <div class="song-details">
+      <img id="player-img" class="player-image" src="https://picsum.photos/60">
+      <span id="song-name">Song Name</span>
+    </div>
+
+
+    <!-- controls -->
+    <div class="controls">
+      <button id="prev-btn">⏮</button>
+      <button id="play-btn">▶</button>
+      <button id="next-btn">⏭</button>
+    </div>
+
+
+    <!-- progress -->
+    <div class="progress">
+      <span></span>
+      <input class="progress-bar" type="range" min="0" max="100" value="0">
+    </div>
+
+    <div class="time-display">
+      <span id="current-time">0:00</span>
+      <span>/</span>
+      <span id="total-time">0:00</span>
+    </div>
+
+
+    <!-- volume -->
+    <div class="volume">
+      <span>🔊</span>
+      <input class="volume-bar" type="range" min="0" max="100" value="50">
+    </div>
+
+
+  </footer>
+
+  <audio id="audio-player">
+  </audio>
+
+  <script src="script.js"></script>
+
+  
+  <div id="fullscreen-player">
+    <button id="close-player">✕</button>
+    <img id="fullscreen-image">
+  <h1 id="fullscreen-song">
+        Song Name
+    </h1>
+    <p id="fullscreen-artist">
+        Artist
+    </p>
+    <input
+    id="fullscreen-progress"
+    type="range"
+    min="0"
+    max="100"
+    value="0">
+</div>
+
+</body>
+
+</html>
