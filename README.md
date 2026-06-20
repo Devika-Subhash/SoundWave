@@ -1,5 +1,4 @@
 
-
 # 🎵 SoundWave Music Player
 
 A Spotify-inspired music player built using HTML, CSS, and JavaScript.
