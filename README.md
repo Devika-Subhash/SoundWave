@@ -40,6 +40,25 @@ soundwave/
     ├── images/
     └── songs/
 ```
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home](./screenshots/home.png)
+
+---
+
+### 🎵 Music Player
+
+![Music Player](./screenshots/player.png)
+
+---
+
+### 🔍 Search Feature
+
+![Search](./screenshots/search.png)
+
+---
 
 ## 🎯 Learning Outcomes
 
